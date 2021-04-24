@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body {
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    display: table;
+	font-family: "Rubik", sans-serif;
+}
+.container{
+	padding: 20px;
+	width:1200px;
+}
+a{text-decoration: none;font-family: "Rubik", sans-serif;}
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group>.form-control {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+.form-control {
+    padding: 17px;
+    border: 1px solid #ffffff;
+    outline: none;
+    border-radius: 5px;
+    display: block;
+    box-shadow: inset 2px 0px 8px 0px #1cafff;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.input-group-append {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.input-group>.input-group-append>.btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 12px 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-colors {
+    background-color: #1cafff;
+    color: white;
+}
+.btn-colors2 {
+    background-color: #fe2424;
+    color: white;
+}
+h2{
+	color: #1cafff;
+}
+	
+	
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.input-group-append .btn+.btn {
+    margin-left: -1px;
+}
+.input-group{
+	margin-bottom: 10px;
+}
+.list-item {
+    background: #fff;
+    display: block;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    padding: 27px;
+    margin-bottom: 17px;
+    margin-top: 7px;
+    border-left: 3px solid #07a8ff;
+}
+.list-item h4{
+	font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+	font-family: "Rubik", sans-serif;
+}
+.list-item p {
+    font-size: 18px;
+    line-height: 37px;
+    color: #686b68;
+    margin-bottom: 0;
+}
+.list-item:last-child{
+	border-bottom: none;
+}
+
+/* keyword highlight color */
+.hlw{
+	background-color: #F9F902;
+}
